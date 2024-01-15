@@ -294,7 +294,7 @@ html, body {
 }
 @keyframes javascript {
     0% { width: 0%;}
-    100% { width: 49%;}
+    100% { width: 58%;}
 }
 
 .skills .Skill .htlmcss{
@@ -303,7 +303,7 @@ html, body {
 }
 @keyframes htmlcss {
     0% { width: 0%;}
-    100% { width: 49%;}
+    100% { width: 58%;}
 }
 .skills .Skill .python{
     width: 0%;
@@ -359,7 +359,7 @@ html, body {
 }
 @keyframes ciberseguridad {
     0% { width: 0%;}
-    100% { width: 50%;}
+    100% { width: 60%;}
 }
 .skills .Skill .comunicacion{
     width: 0%;
