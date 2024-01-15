@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Romina Bautista</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                 <i class="fa-solid fa-bars"></i>
+                </div>
+
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagen/rom.jpg" class="img" alt="">
+            </div>
+            <h1>ROMINA BAUTISTA ARRILUCEA</h1>
+            <h2>Estudiante de ingeniería de software - USIL</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/___rxxm1/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="mailto:rominabautistaa0@gmail.com">
+                    <i class="far fa-envelope"></i>
+                  </a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Romina Bautista Arrilucea.</span> Soy estudiante de Ingeniería de Software, actualmente cursando mi tercer ciclo y 
+                orgullosamente perteneciente al quinto superior de mi carrera. Me apasiona trabajar en proyectos relacionados con la ingeniería de software, 
+                y estoy comprometida con alcanzar la excelencia académica y profesional.</p>
+
+                <div class="fila">
+                    <!--datos personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                25-12-2005
+                            </li>
+                            <li>
+                                <strong>Edad</strong>
+                                18 años
+                            </li> 
+                            <li>
+                                <strong>Email</strong>
+                                rominabautistaa0@gmail.com
+                            </li>  
+                        </ul>
+                    </div>
+                    <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                   </div>
+                </div>
+            </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="Skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>DJango</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Básico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Básico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Ciberseguridad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Intermedio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="Skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Languages skills-->
+                <div class="col">
+                    <h3>Languages Skills</h3>
+                    <div class="Skill">
+                        <span>Español</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Skill">
+                        <span>Inglés</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <h3>Educación</h3>
+            <div class="fila">
+                <div class="col izquierda">
+                    
+                    <div class="item izq">
+                        <h4> Ingeniería de Software</h4>
+                        <span class="casa">Universidad San Ignacio de Loyola</span>
+                        <p>Estudiante destacada de Ingeniería de Software en la Universidad San Ignacio de Loyola,
+                             con un sólido rendimiento académico en el quinto superior.</p>
+                        <div class="connectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                    <div class="item izq">
+                        <h4> Inglés</h4>
+                        <span class="casa">Británico</span>
+                        <p>Poseo certificación en inglés a nivel avanzado, fortaleciendo mis habilidades para una 
+                            comunicación eficaz en entornos internacionales.</p>
+                        <div class="connectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                    <div class="item izq">
+                        <h4> Javascript</h4>
+                        <span class="casa">Netzun</span>
+                        <p>Destaco mi experiencia en JavaScript para crear páginas web dinámicas y atractivas. </p>
+                        <div class="connectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                    <div class="item izq">
+                        <h4> html & css</h4>
+                        <span class="casa">Netzun</span>
+                        <p>Destaco mi habilidad en HTML para estructurar contenido y CSS para estilizar páginas. </p>
+                        <div class="connectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                    <div class="item izq">
+                        <h4> Python</h4>
+                        <span class="casa">Netzun y Udemy</span>
+                        <p>Destaco mi habilidad en Python para desarrollar aplicaciones web con Django,
+                            simplificar tareas repetitivas y mejorar la eficiencia en proyectos.</p>
+                        <div class="connectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                    <div class="item izq">
+                        <h4> Java</h4>
+                        <span class="casa">Udemy-Universidad de Java y Platzi</span>
+                        <p>Mi experiencia con Java incluye programación orientada a objetos, 
+                            herencia, polimorfismo, encapsulamiento, bucles, condicionales, funciones para optimizar el flujo del programa.
+                            Formularios e interfaces destacando la importancia de la experiencia del usuario.He desarrollado soluciones eficientes y mejorado la experiencia del usuario con estas habilidades en Java.</p>
+                        <div class="connectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    
+                    
+                    <div class="item der">
+                        <h4> C++</h4>
+                        <span class="casa">Udemy y Platzi</span>
+                        <p>Destaco mi habilidad en C++, aplicado en el desarrollo de software eficiente
+                            y de alto rendimiento. Utilizo principios de programación orientada a objetos
+                            y algoritmos eficientes para crear soluciones robustas.</p>
+                        <div class="connectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    <div class="item der">
+                        <h4> DJango</h4>
+                        <span class="casa">Netzun</span>
+                        <p>Destaco mi experiencia con Django, un framework web en Python. 
+                        Utilizo Django para desarrollar aplicaciones web de manera rápida y eficiente, 
+                        implementando seguridad y diseño de interfaces atractivas.
+                        </p>
+                        <div class="connectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    <div class="item der">
+                        <h4> SQL</h4>
+                        <span class="casa">Netzun</span>
+                        <p> Mi conocimiento en SQL abarca operaciones esenciales para la gestión de bases de datos.</p>
+                        <div class="connectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    <div class="item der">
+                        <h4> Excel</h4>
+                        <span class="casa">Netzun</span>
+                        <p>Mi competencia en Excel incluye habilidades esenciales para la manipulación y presentación de datos.</p>
+                        <div class="connectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    <div class="item der">
+                        <h4> Ciberseguridad</h4>
+                        <span class="casa">Netzun</span>
+                        <p>Destaco mi conocimiento en ciberseguridad, abordando términos
+                             fundamentales y demostrando experiencia en la implementación del concepto "Zero Trust".</p>
+                        <div class="connectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--SECCIÓN PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagen/proyectoJava.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto en Java</h3>
+                        <p>Software para la gestion de empleados de un restaurante.
+                            Se realizó con programación orientada a objetos(POO).
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagen/proyectoc++.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto en C++</h3>
+                        <p>Software para SEDAPAL. Se realizo diagramas de flujo y
+                             se implementó funciones, estructuras, arrays, condicionales
+                             y bucles.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/___rxxm1/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="mailto:rominabautistaa0@gmail.com">
+                <i class="far fa-envelope"></i>
+              </a>
+        </div>
+    </footer>
+
+    <script  src="script.js"></script>
+</body>
+</html>
